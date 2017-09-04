@@ -7,5 +7,5 @@
 echo 'Hello world';
 
 ?>
-</body>
+  </body>
 </html>
