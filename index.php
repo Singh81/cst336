@@ -32,8 +32,8 @@ in html
         </header>
         <nav>
             <hr width="50%" />
-            <a href="index.html"> <strong>Home</strong></a>
-            <a href="about.html">About</a>
+            <a href="index.php"> <strong>Home</strong></a>
+            <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
         </nav>
         
