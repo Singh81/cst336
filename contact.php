@@ -39,23 +39,16 @@ in html
         <br/>
         <br/>
        <div id="contact">
-           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnBGT1HbMuYvyeW9lKkWpBZOJ7IpL-ZZ8ShD7RnoXg3MFYIQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnBGT1HbMuYvyeW9lKkWpBZOJ7IpL-ZZ8ShD7RnoXg3MFYIQ/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
        </div>
         
-        
-        <!-- This is the footer -->
-        <!-- The footer goes inside the body but not always -->
-        <footer>
-            <hr>
-            Course Name CST336. 2017&copy; Singh 
-            <br/>
-            
-            <strong> Disclaimer:</strong> The information in this ewbpage is fictitous.
-            <br />
-             <img id="logo" src="img/csumb.png" alt="Picture of csumb logo" />
-            <br/>
-        </footer>
-        <!-- closing footer -->
+<?php
+
+include_once('footer.php');
+
+?>
+          
+
         
     </body>
     <!-- closing body -->

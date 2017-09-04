@@ -74,14 +74,11 @@ in html
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
-            <hr>
-            Course Name CST336. 2017&copy; Singh 
-            <br/>
-            
-            <strong> Disclaimer:</strong> The information in this ewbpage is fictitous.
-            <br />
-             <img id="logo" src="img/csumb.png" alt="Picture of csumb logo" />
-            <br/>
+           <?php
+
+include_once('footer.php');
+
+?>
         </footer>
         <!-- closing footer -->
         

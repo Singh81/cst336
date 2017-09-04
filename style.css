@@ -81,3 +81,19 @@ ul
 {
     color: yellow;
 }
+
+footer .left {
+        width: 30%;
+        float: left;
+        display: list-item;
+}
+
+footer .right {
+        width: 30%;
+        float: right;
+}
+
+footer .middle {
+        width: 40%;
+        float: left;
+}
