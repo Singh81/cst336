@@ -1,0 +1,141 @@
+.head
+{
+    font-size: 46px;
+    color: #D12500;
+    text-align:left;
+    margin-top: 20px;
+    margin-right: auto;
+    float: left;
+}
+
+a:hover
+{
+    font-size: 1.5em;
+    transition: .9s;
+    color:#D12500;
+}
+
+
+a{
+    display:inline-block;
+    padding: 10px 15px;
+    margin: 0px 5px;
+    color:#D12500;
+    font-size: 1.2em;
+    text-decoration:none;
+}
+
+.head1
+{
+    float: right;
+    padding: 10px 30px;
+    margin: 0px 20px;
+}
+
+.head2
+{
+    clear: both;
+    font-size: 25px;
+    color: #B42500;
+    margin: 35px ;
+    text-align: center;
+   
+
+}
+.blo
+{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    float:left;
+    width:40%;
+}
+
+.blo1
+{
+    float:right;
+    width: 50%;
+}
+
+.feature{
+    clear:both;
+    font-weight:bold;
+    font-size:40px;
+    color:black;
+    text-align:center;
+}
+.abou
+{
+    float:left;
+    width:40%;
+}
+
+.contact1
+{
+    clear:both;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    text-align:center;
+    width:20%;
+}
+
+.head3
+{
+    background-color: #EC6346;
+    
+}
+
+.head4
+{
+    font-size: larger;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    background-color: #EC6346;
+}
+
+.logo
+{
+    float: right;
+}
+
+.signup
+{
+    display:block;
+    color:#D12500;
+    text-align:center;
+    float:left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#features
+{
+    float: left;
+}
+
+
+
+footer
+{
+    clear: both;
+    font-size: 10px;
+    color: #cccc00;
+}
+footer .left {
+        width: 25%;
+        float: left;
+        display: list-item;
+}
+
+footer .right {
+        width: 0%;
+        float: right;
+}
+
+footer .middle {
+        width: 55%;
+        float: left;
+        text-align: center;
+}
