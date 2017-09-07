@@ -1,0 +1,99 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+header , nav , footer 
+{
+    text-align: center;
+}
+
+#contact
+{
+    text-align: center;
+}
+nav a
+{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white; 
+}
+
+nav a:hover
+{
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+
+#me , #welcomeText
+{
+    float:left;
+}
+#logo
+{
+  
+    float: right;
+}
+
+footer
+{
+    font-size: 10px;
+    clear:left;
+    color: #cccc00;
+}
+table
+{
+    margin: 0px auto;
+}
+
+td
+{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong
+{
+    color: orange;
+}
+
+#table-header
+{
+    background-color: #351a00;
+}
+
+.table-row
+{
+    background-color: #753900;
+}
+
+ul
+{
+    text-align: left;
+    padding-left: 300px;
+}
+
+.hobby
+{
+    color: yellow;
+}
+
+footer .left {
+        width: 30%;
+        float: left;
+        display: list-item;
+}
+
+footer .right {
+        width: 30%;
+        float: right;
+}
+
+footer .middle {
+        width: 40%;
+        float: left;
+}
