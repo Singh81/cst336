@@ -1,0 +1,90 @@
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+    img {
+        border-radius:20px;
+    }
+    
+    body {
+        background-color: black;
+        
+        background-image:url("../img/bg7.jpg");
+        color: white;
+        
+    }
+   h1{
+       color:red;
+       font-size:360%;
+       font-family: verdana;
+       text-align: center;
+   }
+
+    #main {
+        font-family: 'Baloo Bhaina', cursive;
+        background-image:url("../img/background.jpg");
+        color:yellow;
+        margin:0 auto;
+        text-align:center;
+    }
+   
+    
+    #reel1, #reel2, #reel3 {
+        display: block;
+        top:2px;
+        position:relative;
+        margin:0 auto;
+    }
+    
+    #reel1{
+       position:relative;
+    }
+    #reel{
+        left:230px;
+    }
+    #reel{
+        left:150px;
+    }
+    
+    input{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin:0 auto;
+    cursor: pointer;
+    }
+    
+    #output{
+     width:600px;   
+     margin:0 auto;
+     position:absolute;
+     text-align:right;
+     top:450px;
+     font-size:1.5em;
+     line-height: .7em;
+    }
+    
+   footer
+{
+    clear: both;
+    font-size: 10px;
+    color: #cccc00;
+}
+footer .left {
+        width: 25%;
+        float: left;
+        display: list-item;
+}
+
+footer .right {
+        width: 0%;
+        float: right;
+}
+
+footer .middle {
+        width: 55%;
+        float: left;
+        text-align: center;
+}

@@ -1,5 +1,5 @@
 <?php
-include "inc/functions.php";
+include 'inc/functions.php';
 ?>
 <!DOCTYPE html>
 
@@ -10,16 +10,17 @@ include "inc/functions.php";
        
     </head>
     <body>
-         <style>
+        <style>
             @import url("css/styles.css");
         </style>
+       
         <div id="main">
-       <?php
-       play();
-       ?>
+            <?php
+                play();
+            ?>
        
        <form>
-           <input type="submit" value="spin"/>
+           <input type="submit" value="Spin!"/>
        </form>
        </div>
     </body>
