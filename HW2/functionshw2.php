@@ -81,9 +81,10 @@ function displayWorkouts($randomValue) {
                 
                 }
             }
-            
+            $total =0;
             displayHeroes($randomValue);
             displayWorkouts($randomValue);
-            
+            $total = count($workoutName);
+            echo "There are ".$total ." Workouts ";
         }
 ?>
