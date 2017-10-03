@@ -48,6 +48,8 @@ function checkIfSelected($option)
            
            body {
                background-image: url(<?=$backgroundImage?>);
+                background-repeat:no-repeat;
+                background-size: 100%;
            }
          </style>
     </head>
