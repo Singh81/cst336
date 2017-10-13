@@ -1,0 +1,46 @@
+#info{
+    
+        font-style:normal;
+        font-weight:bolder;
+        font-variant:small-caps;
+        color: red;
+       text-shadow: 0 0 3px #FF0000;
+       font-size: larger;
+
+}
+
+.option{
+    
+    color: rgb(60,60,60);
+    
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+   
+}
+
+.result{
+    color:#83004A;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+    text-shadow: 1px 1px red;
+    
+}
+
+ #reel3 {
+        display: block;
+        top:2px;
+        position:relative;
+        margin:0 auto;
+    }
+    
+    .display_text{
+        
+        color: red;
+        font-size: large;
+        font-style: inherit;
+        font-variant: inherit;
+    }

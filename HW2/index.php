@@ -18,9 +18,11 @@
                 play();
             ?>
        </<div>
-       <form>
-           <input type="submit" value="Click here for different workout!"/>
-       </form>
+        <form action ="/action_page.php">
+        <br>
+        <input type="text" name="workoutname" value=""/>
+        <input type="submit" value="Submit"/>
+    </form>  
         <hr>
         <footer>
             <div class="left"></div>
