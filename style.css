@@ -1,15 +1,11 @@
-body
-{
-    background-color: black;
-    color: white;
-}
+
 
 header , nav , footer 
 {
     text-align: center;
 }
 
-#contact
+.contact
 {
     text-align: center;
 }

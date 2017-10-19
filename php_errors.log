@@ -196,3 +196,23 @@
 [08-Oct-2017 01:27:26 UTC] PHP Fatal error:  Call to undefined function check() in /home/ubuntu/workspace/cst336-github/HW4/hw4_Practice.php on line 59
 [08-Oct-2017 01:27:26 UTC] PHP Stack trace:
 [08-Oct-2017 01:27:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/HW4/hw4_Practice.php:0
+[18-Oct-2017 21:22:27 UTC] PHP Fatal error:  Call to undefined function getDeviceTypes() in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 98
+[18-Oct-2017 21:22:27 UTC] PHP Stack trace:
+[18-Oct-2017 21:22:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab5/index.php:0
+[18-Oct-2017 22:30:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 118
+[18-Oct-2017 22:38:49 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 77
+[18-Oct-2017 22:38:49 UTC] PHP Stack trace:
+[18-Oct-2017 22:38:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab5/index.php:0
+[18-Oct-2017 22:38:49 UTC] PHP   2. displayDevices() /home/ubuntu/workspace/cst336-github/Lab5/index.php:142
+[18-Oct-2017 23:31:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 173
+[18-Oct-2017 23:33:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 173
+[18-Oct-2017 23:33:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 173
+[18-Oct-2017 23:33:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 173
+[18-Oct-2017 23:33:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 173
+[18-Oct-2017 23:34:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 173
+[18-Oct-2017 23:34:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 173
+[18-Oct-2017 23:37:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 173
+[18-Oct-2017 23:37:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 174
+[18-Oct-2017 23:38:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 174
+[19-Oct-2017 00:20:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 84
+[19-Oct-2017 23:08:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 56
