@@ -21,7 +21,7 @@ function getUserInfo() {
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     $record = $stmt->fetch(PDO::FETCH_ASSOC);
-    print_r($record);
+    //print_r($record);
     
     return $record;
 
@@ -68,9 +68,7 @@ function departmentList(){
      
     $userInfo = getUserInfo(); 
      
-     
  }
- 
  
 
 ?>
