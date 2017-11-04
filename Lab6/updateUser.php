@@ -59,7 +59,7 @@ function departmentList(){
      $stmt = $conn->prepare($sql);
      $stmt->execute($np);
      
-     echo "Record has been updated!";
+     //echo "Record has been updated!";
      
  }
 
