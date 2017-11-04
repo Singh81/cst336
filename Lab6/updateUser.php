@@ -80,10 +80,15 @@ function departmentList(){
 <html>
     <head>
         <title> Update User </title>
+         <style>
+         @import url("style.css");    
+            
+        </style>
     </head>
     <body>
 
         <h1> Tech Checkout System: Updating User's Info </h1>
+        <div class="main">
         <form method="GET">
             <input type="hidden" name="userId" value="<?=$userInfo['id']?>" />
             First Name:<input type="text" name="firstName" value="<?=$userInfo['firstName']?>" />
@@ -117,9 +122,9 @@ function departmentList(){
                     
                     
                     ?>
-            </select>
-            <input type="submit" value="Update User" name="updateUser">
-        </form>
-
+                    </select>
+                <input type="submit" value="Update User" name="updateUser">
+            </form>
+        </div>
     </body>
 </html>
