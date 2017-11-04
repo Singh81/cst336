@@ -49,13 +49,13 @@ function departmentList(){
      $sql = "UPDATE User
              SET firstName = :fName,
                  lastName  = :lName,
-                 role = :role
+                 role = :rolee
              WHERE id = :id";
      $np = array();
      
      $np[':fName'] = $_GET['firstName'];
      $np[':lName'] = $_GET['lastName'];
-     $np[':role']=$_GET['role'];
+     $np[':rolee']=$_GET['role'];
      $np[':id'] = $_GET['userId'];
      
      $stmt = $conn->prepare($sql);
