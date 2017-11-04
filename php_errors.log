@@ -216,3 +216,216 @@
 [18-Oct-2017 23:38:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 174
 [19-Oct-2017 00:20:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 84
 [19-Oct-2017 23:08:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336-github/Lab5/index.php on line 56
+[31-Oct-2017 21:31:34 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 23
+[31-Oct-2017 21:31:34 UTC] PHP Stack trace:
+[31-Oct-2017 21:31:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:31:34 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:31:34 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 23
+[31-Oct-2017 21:31:34 UTC] PHP Stack trace:
+[31-Oct-2017 21:31:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:31:34 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:31:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 24
+[31-Oct-2017 21:31:34 UTC] PHP Stack trace:
+[31-Oct-2017 21:31:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:31:34 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:32:22 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 23
+[31-Oct-2017 21:32:22 UTC] PHP Stack trace:
+[31-Oct-2017 21:32:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:32:22 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:32:22 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 23
+[31-Oct-2017 21:32:22 UTC] PHP Stack trace:
+[31-Oct-2017 21:32:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:32:22 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:32:22 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 24
+[31-Oct-2017 21:32:22 UTC] PHP Stack trace:
+[31-Oct-2017 21:32:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:32:22 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:32:57 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 23
+[31-Oct-2017 21:32:57 UTC] PHP Stack trace:
+[31-Oct-2017 21:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:32:57 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:32:57 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 23
+[31-Oct-2017 21:32:57 UTC] PHP Stack trace:
+[31-Oct-2017 21:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:32:57 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:32:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 34
+[31-Oct-2017 21:32:57 UTC] PHP Stack trace:
+[31-Oct-2017 21:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:32:57 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:33:00 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 23
+[31-Oct-2017 21:33:00 UTC] PHP Stack trace:
+[31-Oct-2017 21:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:33:00 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:33:00 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 23
+[31-Oct-2017 21:33:00 UTC] PHP Stack trace:
+[31-Oct-2017 21:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:33:00 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:33:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 34
+[31-Oct-2017 21:33:00 UTC] PHP Stack trace:
+[31-Oct-2017 21:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:33:00 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:78
+[31-Oct-2017 21:42:13 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:42:13 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:13 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:42:13 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:42:13 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:13 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:42:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 9
+[31-Oct-2017 21:42:13 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:13 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:42:46 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:42:47 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:47 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:42:47 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:42:47 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:47 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:42:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 9
+[31-Oct-2017 21:42:47 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:47 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:42:50 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:42:50 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:50 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:42:50 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:42:50 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:50 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:42:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 9
+[31-Oct-2017 21:42:50 UTC] PHP Stack trace:
+[31-Oct-2017 21:42:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:42:50 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:37 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:43:37 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:37 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:37 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:43:37 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:37 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 9
+[31-Oct-2017 21:43:37 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:37 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:51 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:43:51 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:51 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:51 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:43:51 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:51 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 9
+[31-Oct-2017 21:43:51 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:51 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:54 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:43:54 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:54 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:54 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:43:54 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:54 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:43:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 9
+[31-Oct-2017 21:43:54 UTC] PHP Stack trace:
+[31-Oct-2017 21:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:43:54 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:63
+[31-Oct-2017 21:52:29 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:52:29 UTC] PHP Stack trace:
+[31-Oct-2017 21:52:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:52:29 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:67
+[31-Oct-2017 21:52:29 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 21:52:29 UTC] PHP Stack trace:
+[31-Oct-2017 21:52:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:52:29 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:67
+[31-Oct-2017 21:52:29 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 9
+[31-Oct-2017 21:52:29 UTC] PHP Stack trace:
+[31-Oct-2017 21:52:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 21:52:29 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:67
+[31-Oct-2017 22:00:11 UTC] PHP Warning:  include(/database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 22:00:11 UTC] PHP Stack trace:
+[31-Oct-2017 22:00:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 22:00:11 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:67
+[31-Oct-2017 22:00:11 UTC] PHP Warning:  include(): Failed opening '/database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 8
+[31-Oct-2017 22:00:11 UTC] PHP Stack trace:
+[31-Oct-2017 22:00:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 22:00:11 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:67
+[31-Oct-2017 22:00:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 9
+[31-Oct-2017 22:00:11 UTC] PHP Stack trace:
+[31-Oct-2017 22:00:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 22:00:11 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:67
+[31-Oct-2017 22:06:38 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/ubuntu/workspace/cst336-github/Lab6/index.php on line 24
+[31-Oct-2017 22:06:38 UTC] PHP Stack trace:
+[31-Oct-2017 22:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/index.php:0
+[31-Oct-2017 22:06:38 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/index.php:67
+[31-Oct-2017 22:06:38 UTC] PHP   3. PDOStatement->execute() /home/ubuntu/workspace/cst336-github/Lab6/index.php:24
+[02-Nov-2017 00:14:43 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 9
+[02-Nov-2017 00:14:43 UTC] PHP Stack trace:
+[02-Nov-2017 00:14:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:14:43 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[02-Nov-2017 00:14:43 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 9
+[02-Nov-2017 00:14:43 UTC] PHP Stack trace:
+[02-Nov-2017 00:14:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:14:43 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[02-Nov-2017 00:14:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 10
+[02-Nov-2017 00:14:43 UTC] PHP Stack trace:
+[02-Nov-2017 00:14:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:14:43 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[02-Nov-2017 00:15:20 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 9
+[02-Nov-2017 00:15:20 UTC] PHP Stack trace:
+[02-Nov-2017 00:15:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:15:20 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[02-Nov-2017 00:15:20 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 9
+[02-Nov-2017 00:15:20 UTC] PHP Stack trace:
+[02-Nov-2017 00:15:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:15:20 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[02-Nov-2017 00:15:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 10
+[02-Nov-2017 00:15:20 UTC] PHP Stack trace:
+[02-Nov-2017 00:15:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:15:20 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[02-Nov-2017 00:18:28 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 9
+[02-Nov-2017 00:18:28 UTC] PHP Stack trace:
+[02-Nov-2017 00:18:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:18:28 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[02-Nov-2017 00:18:28 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 9
+[02-Nov-2017 00:18:28 UTC] PHP Stack trace:
+[02-Nov-2017 00:18:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:18:28 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[02-Nov-2017 00:18:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/Lab6/admin.php on line 10
+[02-Nov-2017 00:18:28 UTC] PHP Stack trace:
+[02-Nov-2017 00:18:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:0
+[02-Nov-2017 00:18:28 UTC] PHP   2. userList() /home/ubuntu/workspace/cst336-github/Lab6/admin.php:44
+[04-Nov-2017 01:41:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b3d374bc5def80'@'%' to database 'heroku_14ce4fd1a99cddb'' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(21): PDO->__construct('mysql:host=us-c...', 'b3d374bc5def80', '6038e853')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/index.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/index.php(70): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 21
+[04-Nov-2017 01:45:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'ip-10-44-181-66.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(21): PDO->__construct('mysql:host=us-c...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/index.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/index.php(70): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 21
+[04-Nov-2017 01:45:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'ip-10-171-194-27.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(21): PDO->__construct('mysql:host=us-c...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/index.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/index.php(70): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 21
+[04-Nov-2017 01:45:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'ip-10-44-181-66.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(21): PDO->__construct('mysql:host=us-c...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/index.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/index.php(70): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 21
