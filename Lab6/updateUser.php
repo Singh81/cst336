@@ -49,7 +49,7 @@ function departmentList(){
      $sql = "UPDATE User
              SET firstName = :fName,
                  lastName  = :lName,
-                 name = :role
+                 role = :role
              WHERE id = :id";
      $np = array();
      
