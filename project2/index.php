@@ -18,7 +18,7 @@ session_start();
     <body>
         <h1> Welcome to Otter Shopping Mall </h1>
         <div class ="main">
-            
+            <a href="shoppingCart.php">your cart</a>
             <form method="POST">
             
             Search by price

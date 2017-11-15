@@ -16,6 +16,10 @@
         }
     }
     
+    if(isset($_POST['submission'])){
+        session_destroy();
+    }
+    
     function displayShoppingCart(){
         $products = productList();
         echo "<table  style='margin:0px auto;' border='0'>";
@@ -61,14 +65,23 @@
             <h1> Welcome to Otter Shopping Mall </h1>
             <div class ="main">
             <h2> Your Shopping Cart </h2>
+            
+            <form method="POST">
+                 <input type="submit" name= "submission" value="Submit">
+            </form>
             <?php
                 $arr = $_SESSION['shopping_cart'];
             
-                foreach ($arr as $key => $value) {
-                    echo $value . "<br />";
-                }
+                
               displayShoppingCart();
+              
+              
+              
             ?>
+            
+            
+            <a href="index.php">Back to store</a> 
+
         </div>
     </body>
 </html>

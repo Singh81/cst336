@@ -14,10 +14,10 @@ function getDBConnection(){
     // return $dbConn;
     //b724345846f34e:958d7a51@us-cdbr-iron-east-05.cleardb.net/heroku_90e40dfb232c3c6?reconnect=true
     
-    $host = "us-cdbr-iron-east-05.cleardb.net";
-    $username = "b45f2bb2cdf570";
-    $password = "4c6a3bb8";
-    $dbname="heroku_f586f5e6404419f";
+  $host = "us-cdbr-iron-east-05.cleardb.net";
+     $username = "b253634d031b02";
+     $password = "a3d6690d";
+     $dbname="heroku_14ce4fd1a99cddb";
 
 // Create connection
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
