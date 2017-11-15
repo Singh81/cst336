@@ -83,6 +83,6 @@ function userList(){
              
              
              ?>
-         </div>   
+         </div>
     </body>
 </html>

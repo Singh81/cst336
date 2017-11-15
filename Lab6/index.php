@@ -42,7 +42,7 @@ function loginProcess() {
 
 ?>
 
-<!DOCTYPE html>
+<!DOCTYPE html>:
 <html>
     <head>
         <title> Admin Login  </title>
@@ -55,9 +55,6 @@ function loginProcess() {
     <body>
             <h1> Admin Login </h1>
             <div class ="main">
-            <form method="post">
-                
-                Username: <input type="text" name="username"/> <br />
                 
                 Password: <input type="password" name="password" /> <br />
                 

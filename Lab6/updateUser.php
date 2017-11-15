@@ -33,7 +33,7 @@ function departmentList(){
       
         global $conn;
         
-        $sql = "SELECT * FROM Departments ORDER BY name";
+        $sql = "SELECT * FROM Departments";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -55,7 +55,7 @@ function departmentList(){
      
      $np[':fName'] = $_GET['firstName'];
      $np[':lName'] = $_GET['lastName'];
-     $np[':rolee']=$_GET['role'];
+     $np[':rolee'] = $_GET['role'];
      $np[':id'] = $_GET['userId'];
      
      $stmt = $conn->prepare($sql);
