@@ -1,16 +1,21 @@
     var selectedWord = ""; 
     var selectedHint = ""; 
     var board = ""; 
+    
     var remainingGuesses = 6; 
     var words = ["snake", "monkey", "beetle"]; 
+    var words1 = ["dangerous" , "funny" ,"top song"];
     
     console.log(words[0]); 
     
     window.onload = startGame; 
     
+    
+    
     function pickWord() {
         var randomIndex = Math.floor(Math.random() * words.length);
         selectedWord = words[randomIndex].toUpperCase();
+        selectedHint = words1[randomIndex];
     }
      
     
@@ -19,6 +24,8 @@
         for (var letter in selectedWord) {
             board += '_';  
         }
+        
+    
 
     }
     
@@ -31,6 +38,13 @@
        $('.replayBtn').on("click", function() {
          location.reload();  
        }); 
+       
+       $('.hint').on("click", function(){
+            $("#Hint").append(selectedHint)
+       })
+       
+      
+       
     }
     
     
@@ -47,6 +61,7 @@
     
     
     function generateLetters() {
+        
         var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
                 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
                 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -58,9 +73,11 @@
         $('.letter-btn').click(function(){
             checkLetter($(this).attr("id"))
         })
-         
+        
+        
 
     }
+    
     
     function checkLetter(letter)  {
         var positions = []; 
