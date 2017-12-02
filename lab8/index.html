@@ -51,6 +51,7 @@
                 success: function(data,status) {
                     // alert(data); 
                     $("#county-list").html("");
+                      $("#county-list").append("<option>" + "Select one" + "</option>");
                     for (var i = 0; i < data.counties.length; i++) {
                         $("#county-list").append("<option>" + data.counties[i].county + "</option>");
                     }
@@ -107,7 +108,7 @@
           <legend><big>Sign Up</big></legend>
           </div>
           <div class="p-3 mb-2 bg-secondary text-white">
-              <div class="text-primary">
+              <div class="bg-primary text-white">
               <strong>
             First Name:  <input type="text"><br> 
             Last Name:   <input type="text"><br> 
@@ -135,22 +136,9 @@
             <input type="submit" value="Sign up!">
             </strong>
             </div>
-            </div>
         </fieldset>
     </form>
     </div>
-     <footer>
-          
-            <div class="center">
-                Course Name CST336. 2017&copy; Singh 
-                <br/>
-                
-                <strong> Disclaimer:</strong> The information in this webpage is fictitous.
-                <br />
-           
-                <img id="logo" src="img/csumb.png" alt="Picture of csumb logo" />
-            </div>
-        </footer>
 </body>
 
 </html>
