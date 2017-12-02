@@ -23,6 +23,7 @@
                     $("#zip-code-error-msg").html("");
                     
                     if (!data.city) {
+                         $('#zip-code-error-msg').css("color", "red");
                         $("#zip-code-error-msg").html("Zip code is invalid"); 
                         return; 
                     }
