@@ -23,8 +23,9 @@
                     $("#zip-code-error-msg").html("");
                     
                     if (!data.city) {
-                         $('#zip-code-error-msg').css("color", "red");
+                       
                         $("#zip-code-error-msg").html("Zip code is invalid"); 
+                        $('#zip-code-error-msg').css("color", "red");
                         return; 
                     }
                    
@@ -64,6 +65,48 @@
                 }
             });
         }
+         function signUp() {
+            if (!validatePassword()) {
+                return; 
+            }
+            debugger;
+            
+            $.ajax({
+                type: "post",
+                url: "api.php",
+                dataType: "json",
+                data: {
+                    'username': $('#username').val(),
+                    'password': $('#password1').val(),
+                    'action': 'signup'
+                },
+                success: function(data,status) {
+                    alert(data); 
+                    debugger
+                    // $("#county-list").html("");
+                    // for (var i = 0; i < data.counties.length; i++) {
+                    //     $("#county-list").append("<option>" + data.counties[i].county + "</option>");
+                    // }
+                    
+                    
+                  },
+                complete: function(data,status) { //optional, used for debugging purposes
+                     //alert(status);
+                }
+            });
+            
+        }
+        
+        function validatePassword() {
+            console.log("In validatePassword...."); 
+            
+            if ($('#password1').val() !== $('#password2').val()) {
+                 $('#password-valid').html("Passwords do not match");
+                 return false; 
+            } 
+            
+            return true; 
+        }
         
         
         function validateUsername() {
@@ -94,6 +137,20 @@
                 }
             });
                 }
+                
+                function validatePassword() {
+            console.log("In validatePassword...."); 
+            
+            if ($('#password1').val() !== $('#password2').val()) {
+                 $('#password-valid').html("Passwords do not match");
+                 return false; 
+            }
+            if($('#password1').length<8){
+                 $('#password-valid').html("Password is short");
+            }
+            
+            return true; 
+        }
     </script>
 </head>
 
@@ -103,7 +160,7 @@
 
    <h1 class= "text-primary"> Sign Up Form </h1>
 
-    <form onsubmit="return false;">
+    <form onsubmit="signUp(); return false;">
         <fieldset>
             <div class="p-3 mb-2 bg-info text-white">
           <legend><big>Sign Up</big></legend>
@@ -133,8 +190,8 @@
             Select a County: <select id="county-list"></select><br>
             
             Desired Username: <input onchange="validateUsername();" id='username' type="text"> <span id="username-valid"></span></span><br>
-            Password: <input type="password"><br>
-            Type Password Again: <input type="password"><br>
+            Password: <input id='password1' type="password"> <span id="password-valid"></span> <br>
+            Type Password Again: <input id='password2' type="password"><br>
             <input type="submit" value="Sign up!">
             </strong>
             </div>
