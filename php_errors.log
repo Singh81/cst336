@@ -1134,3 +1134,119 @@ Stack trace:
 #2 /home/ubuntu/workspace/cst336-github/412_webAssest/index.php(1): include('/home/ubuntu/wo...')
 #3 {main}
   thrown in /home/ubuntu/workspace/cst336-github/412_webAssest/database.php on line 23
+[08-Dec-2017 22:47:23 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336-github/lab1/inc/dbConn.php on line 12
+[08-Dec-2017 22:47:23 UTC] PHP Stack trace:
+[08-Dec-2017 22:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/userSearch.php:0
+[08-Dec-2017 22:47:23 UTC] PHP   2. getDBConnection() /home/ubuntu/workspace/cst336-github/lab1/userSearch.php:4
+[08-Dec-2017 22:47:23 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/cst336-github/lab1/inc/dbConn.php:12
+[08-Dec-2017 23:48:24 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336-github/lab1/inc/dbConn.php on line 12
+[08-Dec-2017 23:48:24 UTC] PHP Stack trace:
+[08-Dec-2017 23:48:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/loginProcess.php:0
+[08-Dec-2017 23:48:24 UTC] PHP   2. getDBConnection() /home/ubuntu/workspace/cst336-github/lab1/loginProcess.php:6
+[08-Dec-2017 23:48:24 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/cst336-github/lab1/inc/dbConn.php:12
+[09-Dec-2017 00:07:29 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336-github/lab1/inc/dbConn.php on line 12
+[09-Dec-2017 00:07:29 UTC] PHP Stack trace:
+[09-Dec-2017 00:07:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/userSearch.php:0
+[09-Dec-2017 00:07:29 UTC] PHP   2. getDBConnection() /home/ubuntu/workspace/cst336-github/lab1/userSearch.php:4
+[09-Dec-2017 00:07:29 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/cst336-github/lab1/inc/dbConn.php:12
+[09-Dec-2017 00:42:47 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/search.php on line 16
+[09-Dec-2017 00:45:25 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/search.php on line 16
+[09-Dec-2017 00:45:26 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/search.php on line 16
+[09-Dec-2017 00:47:44 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/search.php on line 16
+[09-Dec-2017 01:28:34 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/userSearch.php on line 12
+[09-Dec-2017 02:13:41 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 11
+[09-Dec-2017 02:15:34 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 11
+[09-Dec-2017 02:17:18 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 11
+[09-Dec-2017 02:17:20 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 11
+[09-Dec-2017 02:17:21 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 11
+[09-Dec-2017 02:17:24 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 11
+[09-Dec-2017 02:18:09 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 11
+[09-Dec-2017 02:24:03 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 224
+[09-Dec-2017 02:24:03 UTC] PHP Stack trace:
+[09-Dec-2017 02:24:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/insert.php:0
+[09-Dec-2017 02:24:03 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/insert.php:224
+[09-Dec-2017 02:24:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 225
+[09-Dec-2017 02:24:03 UTC] PHP Stack trace:
+[09-Dec-2017 02:24:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/insert.php:0
+[09-Dec-2017 02:24:31 UTC] PHP Fatal error:  Call to undefined function getType1() in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 224
+[09-Dec-2017 02:24:31 UTC] PHP Stack trace:
+[09-Dec-2017 02:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/insert.php:0
+[09-Dec-2017 02:24:55 UTC] PHP Fatal error:  Call to undefined function getType2() in /home/ubuntu/workspace/cst336-github/lab1/insert.php on line 224
+[09-Dec-2017 02:24:55 UTC] PHP Stack trace:
+[09-Dec-2017 02:24:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/insert.php:0
+[09-Dec-2017 02:25:53 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/functions.php on line 8
+[09-Dec-2017 02:25:53 UTC] PHP Stack trace:
+[09-Dec-2017 02:25:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/insert.php:0
+[09-Dec-2017 03:02:08 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/generateReports.php on line 178
+[09-Dec-2017 03:02:08 UTC] PHP Stack trace:
+[09-Dec-2017 03:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/generateReports.php:0
+[09-Dec-2017 03:02:08 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/generateReports.php:178
+[09-Dec-2017 03:02:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/generateReports.php on line 179
+[09-Dec-2017 03:02:08 UTC] PHP Stack trace:
+[09-Dec-2017 03:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/generateReports.php:0
+[09-Dec-2017 03:02:23 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/generateReports.php on line 14
+[09-Dec-2017 03:48:28 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336-github/lab1/displayAll.php on line 114
+[09-Dec-2017 03:48:47 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/update.php on line 17
+[09-Dec-2017 03:51:25 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:51:25 UTC] PHP Stack trace:
+[09-Dec-2017 03:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:51:25 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:156
+[09-Dec-2017 03:51:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 157
+[09-Dec-2017 03:51:25 UTC] PHP Stack trace:
+[09-Dec-2017 03:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:51:44 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:51:44 UTC] PHP Stack trace:
+[09-Dec-2017 03:51:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:51:44 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:156
+[09-Dec-2017 03:51:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 157
+[09-Dec-2017 03:51:44 UTC] PHP Stack trace:
+[09-Dec-2017 03:51:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:53:51 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:53:51 UTC] PHP Stack trace:
+[09-Dec-2017 03:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:53:51 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:156
+[09-Dec-2017 03:53:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 157
+[09-Dec-2017 03:53:51 UTC] PHP Stack trace:
+[09-Dec-2017 03:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:55:16 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:55:16 UTC] PHP Stack trace:
+[09-Dec-2017 03:55:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:55:16 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:156
+[09-Dec-2017 03:55:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 157
+[09-Dec-2017 03:55:16 UTC] PHP Stack trace:
+[09-Dec-2017 03:55:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:55:51 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:55:51 UTC] PHP Stack trace:
+[09-Dec-2017 03:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:55:51 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:156
+[09-Dec-2017 03:55:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 157
+[09-Dec-2017 03:55:51 UTC] PHP Stack trace:
+[09-Dec-2017 03:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:55:53 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:55:53 UTC] PHP Stack trace:
+[09-Dec-2017 03:55:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:55:53 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:156
+[09-Dec-2017 03:55:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 157
+[09-Dec-2017 03:55:53 UTC] PHP Stack trace:
+[09-Dec-2017 03:55:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:55:56 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:55:56 UTC] PHP Stack trace:
+[09-Dec-2017 03:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:55:56 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:156
+[09-Dec-2017 03:55:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 157
+[09-Dec-2017 03:55:56 UTC] PHP Stack trace:
+[09-Dec-2017 03:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:56:41 UTC] PHP Warning:  gettype() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:56:41 UTC] PHP Stack trace:
+[09-Dec-2017 03:56:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:56:41 UTC] PHP   2. gettype() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:156
+[09-Dec-2017 03:56:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 157
+[09-Dec-2017 03:56:41 UTC] PHP Stack trace:
+[09-Dec-2017 03:56:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:57:10 UTC] PHP Fatal error:  Call to undefined function getType5() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:57:10 UTC] PHP Stack trace:
+[09-Dec-2017 03:57:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 03:57:50 UTC] PHP Fatal error:  Call to undefined function getType5() in /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php on line 156
+[09-Dec-2017 03:57:50 UTC] PHP Stack trace:
+[09-Dec-2017 03:57:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
+[09-Dec-2017 04:16:02 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/delete.php on line 20
