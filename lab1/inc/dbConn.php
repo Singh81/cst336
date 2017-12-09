@@ -7,7 +7,7 @@ function getDBConnection()
      $dbname="heroku_14ce4fd1a99cddb";
 
 // Create connection
-    $conn = new PDO("mysql:host=$host;dbname=$dbname1", $username, $password);
+    $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     return $conn;
 }
 
