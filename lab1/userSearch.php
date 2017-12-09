@@ -180,7 +180,7 @@ function getRecords()
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="userSearch.php" id="currentpage">Search</a></li>
                   <li><a href="login.html">Login Page</a></li>
-                  <li><a href="firstPage.php">Exit</a></li>
+                  <li><a href="index.php">Exit</a></li>
                 </ul>
               </div>
             </nav>
