@@ -94,7 +94,7 @@ function getRecords()
     
     if(!empty($_GET['brand']))
     {
-        //$sql .= " and manufac_name = '".$_GET['brand']."'";
+        //$sql .= " and company_name = '".$_GET['brand']."'";
         
         
         $sql .= " AND company_name = :company_name";

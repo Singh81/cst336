@@ -175,7 +175,7 @@ function getType4()
                     Filter by Type: </td><td><select name="filterType" id= "filterType" value=""/>
                                <option value="">Select One</option>
                                <?php
-                                 $Types = getType6();
+                                 $Types = getType4();
                                   foreach ($Types as $Type) 
                                   {
                                       echo "<option>" . $Type. "</option>";

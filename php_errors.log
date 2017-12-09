@@ -1250,3 +1250,6 @@ Stack trace:
 [09-Dec-2017 03:57:50 UTC] PHP Stack trace:
 [09-Dec-2017 03:57:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/updateByNum.php:0
 [09-Dec-2017 04:16:02 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/ubuntu/workspace/cst336-github/lab1/delete.php on line 20
+[09-Dec-2017 05:01:31 UTC] PHP Fatal error:  Call to undefined function getType6() in /home/ubuntu/workspace/cst336-github/lab1/generateReports.php on line 178
+[09-Dec-2017 05:01:31 UTC] PHP Stack trace:
+[09-Dec-2017 05:01:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab1/generateReports.php:0
