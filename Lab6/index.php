@@ -8,11 +8,11 @@ function loginProcess() {
         include 'database.php';
         $conn = getDatabaseConnection();
       
-            $username = $_POST['username'];
+            $username = "admin";
             $password = sha1($_POST['password']);
             
             $sql = "SELECT *
-                    FROM Admin
+                    FROM admin
                     WHERE userName = :username 
                     AND   password = :password ";
             
@@ -31,7 +31,7 @@ function loginProcess() {
             } else {
                 
                $_SESSION['username'] = $record['userName'];
-               $_SESSION['adminName'] = $record['firstName'] . "  " . $record['lastName'];
+              // $_SESSION['adminName'] = $record['firstName'] . "  " . $record['lastName'];
                //echo $record['firstName'];
                header("Location: admin.php"); //redirecting to admin.php
                 
@@ -56,6 +56,9 @@ function loginProcess() {
             <h1> Admin Login </h1>
             <div class ="main">
                 
+                <form method ="Post">
+                    
+                Username: <input type="text" name="username" /> <br />
                 Password: <input type="password" name="password" /> <br />
                 
                 <input type="submit" name="loginForm" value="Login!"/>
